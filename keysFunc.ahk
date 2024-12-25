@@ -58,12 +58,12 @@ keysFunc_delete() {
 }
 
 keysFunc_backSpace_word() {
-    Send("+{Backspace}")
+    Send("^{Backspace}")
     return false
 }
 
 keysFunc_delete_word() {
-    Send("+{Delete}")
+    Send("^{Delete}")
     return false
 }
 
